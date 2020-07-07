@@ -32,4 +32,4 @@ APACHE 2.0
 ### Questions:
 Email: edsloanephoto@gmail.com 
 
-Github: edsloane(https://github.com/edsloane)
+[Github: edsloane]

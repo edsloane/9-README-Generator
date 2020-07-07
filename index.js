@@ -96,11 +96,13 @@ ${data.test}
 
 ### Questions:
 Email: ${data.email} \n
-Github: ${data.username}(https://github.com/${data.username})
+[Github: ${data.username}]
 `
 
   fs.writeFile("README.md", fields, (err) => console.log(err || 'success!'))
   
 };
+
+// (https://github.com/${data.username})
 
 template()
