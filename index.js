@@ -1,6 +1,7 @@
 const { prompt } = require("inquirer");
 const fs = require('fs');
 const axios = require("axios");
+const util = require('util');
 
 const questions = [
   {
@@ -77,24 +78,24 @@ function write(data) {
 * [Tests](#tests)
 * [Questions](#questions)
 
-## Installation:
+### Installation:
 ${data.installation}
 
-## Usage:
+### Usage:
   ${data.usage}
 
-## License:
+### License:
 ${data.license}
 ![License Badge](https://img.shields.io/badge/license-${data.license[0]}-blue)
 
-## Contributing:
+### Contributing:
 ${data.contributor}
 
-## Tests:
+### Tests:
 ${data.test}
 
-## Questions:
-Email: ${data.email}
+### Questions:
+Email: ${data.email} \n
 [Github: ${data.username}](https://github.com/${data.username})
 `
 

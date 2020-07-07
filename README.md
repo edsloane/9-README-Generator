@@ -13,22 +13,23 @@
 * [Tests](#tests)
 * [Questions](#questions)
 
-## Installation:
+### Installation:
 
 
-## Usage:
+### Usage:
   
 
-## License:
+### License:
 APACHE 2.0
 ![License Badge](https://img.shields.io/badge/license-A-blue)
 
-## Contributing:
+### Contributing:
 
 
-## Tests:
+### Tests:
 
 
-## Questions:
-Email: edsloanephoto@gmail.com
+### Questions:
+Email: edsloanephoto@gmail.com 
+
 [Github: edsloane](https://github.com/edsloane)
