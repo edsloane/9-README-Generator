@@ -64,7 +64,7 @@ async function template() {
 
 function write(data) {
   const fields = `
-# Title: ${data.title}
+# ${data.title}
 
 ## Description:
 
@@ -85,7 +85,7 @@ ${data.installation}
   ${data.usage}
 
 ### License:
-${data.license}
+${data.license} \n
 ![License Badge](https://img.shields.io/badge/license-${data.license[0]}-blue)
 
 ### Contributing:
@@ -96,13 +96,11 @@ ${data.test}
 
 ### Questions:
 Email: ${data.email} \n
-[Github: ${data.username}]
+[Github: ${data.username}](https://github.com/${data.username})
 `
 
   fs.writeFile("README.md", fields, (err) => console.log(err || 'success!'))
   
 };
 
-// (https://github.com/${data.username})
-
-template()
+template();
