@@ -22,11 +22,11 @@ A command-line application that dynamically generates a professional README.md f
 * [Questions](#questions)
 
 ### Installation:
-Create an index.js file in your local folder
-Ensure you have Node.js installed, along with NPM
-Generate a package.json file
-Install inquirer
-Copy the contents of this index.js file into your index.js file.
+- Create an index.js file in your local folder
+- Ensure you have Node.js installed, along with NPM
+- Generate a package.json file
+- Install inquirer
+- Copy the contents of this index.js file into your index.js file.
 
 ### Usage:
   [Video Example](https://drive.google.com/file/d/1qb0vSNup2rJY3875f5IiepG7cywlfYpH/view ) 
